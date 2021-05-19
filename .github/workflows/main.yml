@@ -23,7 +23,7 @@ jobs:
           
       # 安装环境
       - name: install
-        run: npm install -g hexo-cli
+        run: npm install hexo
       
       # 1、生成静态文件
       - name: Build
