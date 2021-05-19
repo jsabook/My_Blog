@@ -1,0 +1,72 @@
+<%
+  var sUrl = url.replace(/index\.html$/, '');
+  sUrl = /^(http:|https:)\/\//.test(sUrl) ? sUrl : 'https:' + sUrl;
+  test=sUrl.substring(10);
+%>
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+          <a class="linkedin share-sns" href="javascript:;" data-type="linkedin">
+            <i class="icon icon-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="mask js-mask"></div>
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="<%- 'qrcode' in locals ? qrcode(sUrl) : '//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://sujie-168.top/' + test  %>" alt="微信分享二维码">
+    </div>
+</div>
+
+
+<!--  <div class="bshare-custom" style="position:absolute;right:0;">
+<a title="分享到QQ空间" class="bshare-qzone"></a>
+<a title="分享到微信" class="bshare-weixin"></a>
+<a title="分享到QQ好友" class="bshare-qqim"></a>
+<a title="分享到新浪微博" class="bshare-sinaminiblog"></a>
+<a title="分享到Twitter" class="bshare-twitter"></a>
+<a title="分享到Facebook" class="bshare-facebook"></a>
+<a title="分享到LinkedIn" class="bshare-linkedin"></a>
+ <a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a>
+ <span class="BSHARE_COUNT bshare-share-count">0</span>
+</div>
+<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/button.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh">
+</script>
+<a class="bshareDiv" οnclick="javascript:return false;"></a>  -->
