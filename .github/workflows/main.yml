@@ -27,7 +27,7 @@ jobs:
       
       # 1、生成静态文件
       - name: Build
-        run: npx hexo clean && npx hexo g && gulp
+        run: npx hexo clean && npx hexo g
         
       # 2、部署到 GitHub Pages
       - name: upload
