@@ -1,4 +1,4 @@
-name: CI  #自动化的名称
+name: Deploy Github Pages  #自动化的名称
 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
