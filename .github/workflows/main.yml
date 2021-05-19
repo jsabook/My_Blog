@@ -21,13 +21,13 @@ jobs:
           submodules: true
           persist-credentials: false
           
-      # 1、安装环境
+      # 安装环境
       - name: install
-        run: npm install hexo
-        
+        run: npm install -g hexo-cli
+      
       # 1、生成静态文件
       - name: Build
-        run: hexo clean && hexo g && gulp
+        run: npx hexo clean && npx hexo g && gulp
         
       # 2、部署到 GitHub Pages
       - name: Deploy
