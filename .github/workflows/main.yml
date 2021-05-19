@@ -21,9 +21,25 @@ jobs:
           submodules: true
           persist-credentials: false
           
-      # 安装环境
-      - name: install
-        run: npm install hexo && npm install
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+          
+      # 配置环境 
+      - name: Setup Hexo
+        env:
+          ACTION_DEPLOY_KEY: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
+          chmod 700 ~/.ssh
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.email "su2054552689@gmail.com"
+          git config --global user.name "sujit-168"
+          npm install hexo-cli -g
+          npm install    
       
       # 1、生成静态文件
       - name: Build
