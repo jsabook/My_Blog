@@ -30,6 +30,9 @@ jobs:
         run: npx hexo clean && npx hexo g && gulp
         
       # 2、部署到 GitHub Pages
+      - name: upload
+        run: npx hexo d
+        
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
