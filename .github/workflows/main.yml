@@ -53,6 +53,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACTION_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
           REPOSITORY_NAME: sujie-168/sujie-168.github.io
           BRANCH: main
           FOLDER: public
