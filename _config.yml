@@ -65,6 +65,11 @@ index_generator:
     top: -1
     date: -1
 
+
+topindex_generator:
+  per_page: 10
+  order_by: -date
+
 # Category & Tag
 default_category: uncategorized
 
