@@ -102,6 +102,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: yilia-plus
+
 #RSS订阅
 plugins: hexo-generater-feed
 #Feed Atom
