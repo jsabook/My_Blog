@@ -57,13 +57,13 @@ highlight:
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
-index_generator:
-  path: ''
-  per_page: 10
- #order_by: -date
-  order_by:
-    top: -1
-    date: -1
+#index_generator:
+#  path: ''
+#  per_page: 10
+#order_by: -date
+#  order_by:
+#   top: -1
+#   date: -1
 
 
 topindex_generator:
