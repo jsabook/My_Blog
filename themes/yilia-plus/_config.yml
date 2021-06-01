@@ -17,7 +17,7 @@ subNav:
   #cnblog: "#"
   #blog: "#"
   csdn: "https://blog.csdn.net/qq_45857922"
-  rss: "https://briefcake.com/feeds/new"
+  rss: "atom.xml"
   zhihu: "https://www.zhihu.com/people/xing-zhao-zuo-meng-7-97"
   #qq: "#"
   #weixin: "#"
