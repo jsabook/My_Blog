@@ -17,7 +17,7 @@ tags: [Actions,github,CI/CD]
 
 这里引用B站大佬up主[遇见狂神说](https://space.bilibili.com/95256449)的视频为大家解读，大家可以了解一下整个的应用流程。
 
-<iframe src="//player.bilibili.com/player.html?aid=285879510&bvid=BV1zf4y127vu&cid=200860220&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="1100" height="550" controls> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=285879510&bvid=BV1zf4y127vu&cid=200860220&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="850" height="550" controls> </iframe>
 
 
 

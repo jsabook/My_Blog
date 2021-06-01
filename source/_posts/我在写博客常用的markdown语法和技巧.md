@@ -41,7 +41,7 @@ tags: [Markdown]
 
 首先也需要将pdf文件上传到云端，采用链接引用
 
-语法：{% pdf https://pdf/xxxx.pdf %}
+语法：{% pdf https://arxiv.org/pdf/xxxx.pdf %}
 
 
 
