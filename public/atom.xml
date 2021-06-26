@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>甦傑的博客</title>
+  <icon>http://sujie-168.top/icon.png</icon>
+  <subtitle>未来有无限可能</subtitle>
+  <link href="http://sujie-168.top/atom.xml" rel="self"/>
+  
+  <link href="http://sujie-168.top/"/>
+  <updated>2021-06-01T05:45:38.858Z</updated>
+  <id>http://sujie-168.top/</id>
+  
+  <author>
+    <name>甦傑</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我在写博客常用的markdown语法和技巧</title>
+    <link href="http://sujie-168.top/2021/05/24/%E6%88%91%E5%9C%A8%E5%86%99%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E7%9A%84markdown%E8%AF%AD%E6%B3%95%E5%92%8C%E6%8A%80%E5%B7%A7/"/>
+    <id>http://sujie-168.top/2021/05/24/%E6%88%91%E5%9C%A8%E5%86%99%E5%8D%9A%E5%AE%A2%E5%B8%B8%E7%94%A8%E7%9A%84markdown%E8%AF%AD%E6%B3%95%E5%92%8C%E6%8A%80%E5%B7%A7/</id>
+    <published>2021-05-24T15:05:09.000Z</published>
+    <updated>2021-06-01T05:45:38.858Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;最近没有怎么写博客进行总结，今天准备对之前常用的markdown语法进行总结&quot;&gt;&lt;a href=&quot;#最近没有怎么写博客进行总结，今天准备对之前常用的markdown语法进行总结&quot; class=&quot;headerlink&quot; title=&quot;最近没有怎么写博客进行总结，今天准备对之前常用的markdown语法进行总结&quot;&gt;&lt;/a&gt;最近没有怎么写博客进行总结，今天准备对之前常用的markdown语法进行总结&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="Markdown" scheme="http://sujie-168.top/categories/Markdown/"/>
+    
+    
+    <category term="Markdown" scheme="http://sujie-168.top/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何使用Github+Actions实现Hexo博客自动化部署</title>
+    <link href="http://sujie-168.top/2021/05/24/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Actions%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/"/>
+    <id>http://sujie-168.top/2021/05/24/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Github-Actions%E5%AE%9E%E7%8E%B0Hexo%E5%8D%9A%E5%AE%A2%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/</id>
+    <published>2021-05-24T12:27:32.000Z</published>
+    <updated>2021-06-01T05:44:24.918Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;之前为了更好的学习前端技术，也就在Github仓库上来建立了自己的个人博客。在使用了一段时间之后，我也发现了一种新的玩法，可以使用Github的Actions来对自己的博客站点内容进行持续集成和持续部署，也就是说，根据本篇的内容，你只需要3个git命令就能实现Hexo博客的部署，强烈建议小伙伴们积极动手试一试，在提升上线效率上极有帮助。&lt;/p&gt;
+&lt;h1 id=&quot;在本文中主要介绍我是如何使用Github-Actions为自己的个人博客实现CI-CD的自动化部署&quot;&gt;&lt;a href=&quot;#在本文中主要介绍我是如何使用Github-Actions为自己的个人博客实现CI-CD的自动化部署&quot; class=&quot;headerlink&quot; title=&quot;在本文中主要介绍我是如何使用Github+Actions为自己的个人博客实现CI/CD的自动化部署&quot;&gt;&lt;/a&gt;在本文中主要介绍我是如何使用Github+Actions为自己的个人博客实现CI/CD的自动化部署&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="Actions" scheme="http://sujie-168.top/categories/Actions/"/>
+    
+    <category term="github" scheme="http://sujie-168.top/categories/Actions/github/"/>
+    
+    <category term="CI/CD" scheme="http://sujie-168.top/categories/Actions/github/CI-CD/"/>
+    
+    
+    <category term="github" scheme="http://sujie-168.top/tags/github/"/>
+    
+    <category term="Actions" scheme="http://sujie-168.top/tags/Actions/"/>
+    
+    <category term="CI/CD" scheme="http://sujie-168.top/tags/CI-CD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何提高在github上git clone的效率</title>
+    <link href="http://sujie-168.top/2021/04/13/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E5%9C%A8github%E4%B8%8Agit-clone%E7%9A%84%E6%95%88%E7%8E%87/"/>
+    <id>http://sujie-168.top/2021/04/13/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98%E5%9C%A8github%E4%B8%8Agit-clone%E7%9A%84%E6%95%88%E7%8E%87/</id>
+    <published>2021-04-13T00:17:00.000Z</published>
+    <updated>2021-05-23T00:54:40.924Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近在github上clone一些机器学习的项目时，发现下载速度很慢，只有几kB/s，需要等待很久，才能下载完整个项目，并且途中时长出现断连的情况，非常影响用户体验，鉴于个人难以忍受这种操作体验，所以就四处寻找解决办法，这次运气不错，在&lt;a href=&quot;https://blog.csdn.net/a1405/article/details/115438017&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;提高国内访问 GitHub 的速度的 9 种方案&lt;/a&gt;及&lt;a href=&quot;https://www.secn.net/article/1562784.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub下载慢？可以试试下面的方法提升速度&lt;/a&gt;这两篇文章里，很容易就找到了。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="github" scheme="http://sujie-168.top/categories/github/"/>
+    
+    
+    <category term="github" scheme="http://sujie-168.top/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎来到我的个人博客</title>
+    <link href="http://sujie-168.top/2021/03/12/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://sujie-168.top/2021/03/12/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-03-12T15:08:31.000Z</published>
+    <updated>2021-06-01T05:45:51.294Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;欢迎来到我的博客，在这里你可以看到很多内容&quot;&gt;&lt;a href=&quot;#欢迎来到我的博客，在这里你可以看到很多内容&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>How to push to github</title>
+    <link href="http://sujie-168.top/2021/03/05/How-to-push-to-github/"/>
+    <id>http://sujie-168.top/2021/03/05/How-to-push-to-github/</id>
+    <published>2021-03-05T13:39:09.000Z</published>
+    <updated>2021-05-23T00:54:40.921Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;之前刚开始接触Github的时候，有太多需要注意的点需要care，所以很多时候都畏手畏脚，导致有许多次想要尝试却铩羽而归，这次就以如何push自己的项目到github仓库上举例&lt;/p&gt;
+&lt;h1 id=&quot;本文将介绍如何将自己的项目push到github上，如何及时发布自己项目的每次更新&quot;&gt;&lt;a href=&quot;#本文将介绍如何将自己的项目push到github上，如何及时发布自己项目的每次更新&quot; class=&quot;headerlink&quot; title=&quot;本文将介绍如何将自己的项目push到github上，如何及时发布自己项目的每次更新&quot;&gt;&lt;/a&gt;本文将介绍如何将自己的项目push到github上，如何及时发布自己项目的每次更新&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="git" scheme="http://sujie-168.top/categories/git/"/>
+    
+    <category term="github" scheme="http://sujie-168.top/categories/git/github/"/>
+    
+    
+    <category term="git" scheme="http://sujie-168.top/tags/git/"/>
+    
+    <category term="github" scheme="http://sujie-168.top/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何为自己的博客添加Https</title>
+    <link href="http://sujie-168.top/2021/03/05/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/"/>
+    <id>http://sujie-168.top/2021/03/05/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0Https/</id>
+    <published>2021-03-05T11:45:45.000Z</published>
+    <updated>2021-05-31T23:33:03.055Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;之前为了更好的学习，也就在Github仓库上来建立了自己的个人博客。在使用了一段时间之后，我也发现了一个致命的缺陷，自己的网站使用http协议来进行通讯，安全性有待提升。所以今天花了一点时间将自己的博客成功的转换成支持https协议进行通讯，这样就比较Nice了。&lt;/p&gt;
+&lt;h1 id=&quot;在本文中主要介绍我是如何为自己的个人博客添加Https协议通讯&quot;&gt;&lt;a href=&quot;#在本文中主要介绍我是如何为自己的个人博客添加Https协议通讯&quot; class=&quot;headerlink&quot; title=&quot;在本文中主要介绍我是如何为自己的个人博客添加Https协议通讯&quot;&gt;&lt;/a&gt;在本文中主要介绍我是如何为自己的个人博客添加Https协议通讯&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="https" scheme="http://sujie-168.top/categories/https/"/>
+    
+    
+    <category term="https" scheme="http://sujie-168.top/tags/https/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何订阅我的个人博客</title>
+    <link href="http://sujie-168.top/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://sujie-168.top/2021/03/01/%E5%A6%82%E4%BD%95%E8%AE%A2%E9%98%85%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-03-01T02:54:35.000Z</published>
+    <updated>2021-05-31T23:12:29.219Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近研究了一下如何给自己的博客添加订阅功能，在&lt;a href=&quot;https://zhuanlan.zhihu.com/p/111978933&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;这篇文章&lt;/a&gt;里找到了些许灵感。&lt;/p&gt;
+&lt;h1 id=&quot;本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客&quot;&gt;&lt;a href=&quot;#本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客&quot; class=&quot;headerlink&quot; title=&quot;本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客&quot;&gt;&lt;/a&gt;本文中主要介绍我是如何为自己的博客添加订阅功能以及如何订阅我的个人博客&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="操作技巧" scheme="http://sujie-168.top/categories/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="RSS订阅" scheme="http://sujie-168.top/tags/RSS%E8%AE%A2%E9%98%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在Ubuntu18.04上训练一个YOLO3模型</title>
+    <link href="http://sujie-168.top/2021/02/24/%E5%A6%82%E4%BD%95%E5%9C%A8Ubuntu18.04%E4%B8%8A%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AAYOLO3%E6%A8%A1%E5%9E%8B/"/>
+    <id>http://sujie-168.top/2021/02/24/%E5%A6%82%E4%BD%95%E5%9C%A8Ubuntu18.04%E4%B8%8A%E8%AE%AD%E7%BB%83%E4%B8%80%E4%B8%AAYOLO3%E6%A8%A1%E5%9E%8B/</id>
+    <published>2021-02-24T09:27:16.000Z</published>
+    <updated>2021-05-23T00:54:40.923Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近接触的项目需要用到目标检测算法，而&lt;a href=&quot;https://pjreddie.com/darknet/yolo/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Yolo模型&lt;/a&gt;在目标检测领域独具有代表性，可以说入门首选。&lt;a href=&quot;https://blog.csdn.net/weixin_42747301/article/details/96636614&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Ubuntu18.04下YOLOv3详解&lt;/a&gt;是我找到对于整个目标检测环节描述比较详细的这篇文章，有需要的小伙伴可以参考。&lt;/p&gt;
+&lt;h1 id=&quot;本文中主要介绍我是如何在Ubuntu18-04上训练一个Yolo3目标检测模型&quot;&gt;&lt;a href=&quot;#本文中主要介绍我是如何在Ubuntu18-04上训练一个Yolo3目标检测模型&quot; class=&quot;headerlink&quot; title=&quot;本文中主要介绍我是如何在Ubuntu18.04上训练一个Yolo3目标检测模型&quot;&gt;&lt;/a&gt;本文中主要介绍我是如何在Ubuntu18.04上训练一个Yolo3目标检测模型&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="Ubuntu18.04" scheme="http://sujie-168.top/categories/Ubuntu18-04/"/>
+    
+    <category term="YOLO3" scheme="http://sujie-168.top/categories/Ubuntu18-04/YOLO3/"/>
+    
+    <category term="Machine Learning" scheme="http://sujie-168.top/categories/Ubuntu18-04/YOLO3/Machine-Learning/"/>
+    
+    
+    <category term="Ubuntu18.04" scheme="http://sujie-168.top/tags/Ubuntu18-04/"/>
+    
+    <category term="YOLO3" scheme="http://sujie-168.top/tags/YOLO3/"/>
+    
+    <category term="Machine Learning" scheme="http://sujie-168.top/tags/Machine-Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何解决来自github的警告:Dependabot alerts</title>
+    <link href="http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/"/>
+    <id>http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E8%A7%A3%E5%86%B3%E6%9D%A5%E8%87%AAgithub%E7%9A%84%E8%AD%A6%E5%91%8A-Dependabot-alerts/</id>
+    <published>2021-01-22T09:06:01.000Z</published>
+    <updated>2021-05-23T00:54:40.924Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;最近没有怎么注意我的博客，今天准备到github上学习，发现来自github的警告，作为一个稍微有点强迫症的人，这怎么受得了这些&lt;a href=&quot;https://docs.github.com/en/github/managing-security-vulnerabilities/about-alerts-for-vulnerable-dependencies&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Dependabot alerts&lt;/a&gt;警告&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="github" scheme="http://sujie-168.top/categories/github/"/>
+    
+    
+    <category term="github" scheme="http://sujie-168.top/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何为自己的爱机神舟TX6-CT5DA加装固态硬盘</title>
+    <link href="http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/"/>
+    <id>http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E7%88%B1%E6%9C%BA%E7%A5%9E%E8%88%9FTX6-CT5DA%E5%8A%A0%E8%A3%85%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/</id>
+    <published>2021-01-22T06:19:19.000Z</published>
+    <updated>2021-05-23T00:54:40.923Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在学习Linux系统的使用的过程中，在学习了一段时间之后，我觉得有必要为自己的战神（TX6-CT5DA）加装一块128G的固态硬盘用于安装ubuntu18.04系统，本文属于Ubuntu与ROS系列。&lt;/p&gt;
+&lt;h1 id=&quot;在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘&quot;&gt;&lt;a href=&quot;#在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘&quot; class=&quot;headerlink&quot; title=&quot;在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘&quot;&gt;&lt;/a&gt;在本文中主要介绍我是如何为自己的爱机神舟TX6-CT5DA加装固态硬盘&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="神舟战神TX6-CT5DA" scheme="http://sujie-168.top/categories/%E7%A5%9E%E8%88%9F%E6%88%98%E7%A5%9ETX6-CT5DA/"/>
+    
+    <category term="固态硬盘" scheme="http://sujie-168.top/categories/%E7%A5%9E%E8%88%9F%E6%88%98%E7%A5%9ETX6-CT5DA/%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/"/>
+    
+    
+    <category term="神舟战神TX6-CT5DA" scheme="http://sujie-168.top/tags/%E7%A5%9E%E8%88%9F%E6%88%98%E7%A5%9ETX6-CT5DA/"/>
+    
+    <category term="固态硬盘" scheme="http://sujie-168.top/tags/%E5%9B%BA%E6%80%81%E7%A1%AC%E7%9B%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在VScode中跑一个从github上fork下来的项目</title>
+    <link href="http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://sujie-168.top/2021/01/22/%E5%A6%82%E4%BD%95%E5%9C%A8VScode%E4%B8%AD%E8%B7%91%E4%B8%80%E4%B8%AA%E4%BB%8Egithub%E4%B8%8Afork%E4%B8%8B%E6%9D%A5%E7%9A%84%E9%A1%B9%E7%9B%AE/</id>
+    <published>2021-01-22T05:24:04.000Z</published>
+    <updated>2021-05-23T00:54:40.924Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;​    在学习VS code的使用的过程中，花费了一个白天时间看各种教程，试图并从中找出快速上手项目基配置的具体步骤。在一天半的时间里不断试错，最后，共计花费20小时成功在VS code中运行了自己的第一个项目，虽然这个项目不是我完成的，但这次经历对于现在的我来说还是至关重要的。&lt;/p&gt;
+&lt;h1 id=&quot;在本文中主要介绍我是如何在VS-code中运行从github上fork下来的项目&quot;&gt;&lt;a href=&quot;#在本文中主要介绍我是如何在VS-code中运行从github上fork下来的项目&quot; class=&quot;headerlink&quot; title=&quot;在本文中主要介绍我是如何在VS code中运行从github上fork下来的项目&quot;&gt;&lt;/a&gt;在本文中主要介绍我是如何在VS code中运行从github上fork下来的项目&lt;/h1&gt;</summary>
+    
+    
+    
+    <category term="VScode" scheme="http://sujie-168.top/categories/VScode/"/>
+    
+    <category term="github" scheme="http://sujie-168.top/categories/VScode/github/"/>
+    
+    <category term="fork" scheme="http://sujie-168.top/categories/VScode/github/fork/"/>
+    
+    
+    <category term="github" scheme="http://sujie-168.top/tags/github/"/>
+    
+    <category term="VScode" scheme="http://sujie-168.top/tags/VScode/"/>
+    
+    <category term="fork" scheme="http://sujie-168.top/tags/fork/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>对于一些不可复制文档的操作技巧</title>
+    <link href="http://sujie-168.top/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    <id>http://sujie-168.top/2021/01/13/%E5%AF%B9%E4%BA%8E%E4%B8%80%E4%BA%9B%E4%B8%8D%E5%8F%AF%E5%A4%8D%E5%88%B6%E6%96%87%E6%A1%A3%E7%9A%84%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/</id>
+    <published>2021-01-13T13:05:38.000Z</published>
+    <updated>2021-05-23T00:54:40.925Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;对于一些不可复制文档的操作技巧&quot;&gt;&lt;a href=&quot;#对于一些不可复制文档的操作技巧&quot; class=&quot;headerlink&quot; title=&quot;对于一些不可复制文档的操作技巧&quot;&gt;&lt;/a&gt;对于一些不可复制文档的操作技巧&lt;/h1&gt;&lt;h1 id=&quot;背景介绍：&quot;&gt;&lt;a href=&quot;#背景介绍：&quot; class=&quot;headerlink&quot; title=&quot;背景介绍：&quot;&gt;&lt;/a&gt;背景介绍：&lt;/h1&gt;&lt;p&gt;如果你想白嫖一篇包含付费内容的文档，比如XX文库之类的，或许接下来的内容会对你很有帮助。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="操作技巧" scheme="http://sujie-168.top/categories/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="操作技巧" scheme="http://sujie-168.top/tags/%E6%93%8D%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>虚拟机ubuntu16.04与ROS-kinetic</title>
+    <link href="http://sujie-168.top/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/"/>
+    <id>http://sujie-168.top/2020/12/28/%E8%99%9A%E6%8B%9F%E6%9C%BAubuntu16-04%E4%B8%8EROS-kinetic/</id>
+    <published>2020-12-28T11:52:06.000Z</published>
+    <updated>2021-05-23T00:54:40.927Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;虚拟机ubuntu16-04与ROS-kinetic的安装&quot;&gt;&lt;a href=&quot;#虚拟机ubuntu16-04与ROS-kinetic的安装&quot; class=&quot;headerlink&quot; title=&quot;虚拟机ubuntu16.04与ROS-kinetic的安装&quot;&gt;&lt;/a&gt;虚拟机ubuntu16.04与ROS-kinetic的安装&lt;/h1&gt;&lt;h3 id=&quot;背景介绍&quot;&gt;&lt;a href=&quot;#背景介绍&quot; class=&quot;headerlink&quot; title=&quot;背景介绍&quot;&gt;&lt;/a&gt;背景介绍&lt;/h3&gt;&lt;p&gt;​        最近由于要做的一个项目涉及到ROS与机器视觉以及一些SLAM技术，所以学习了一下机器人操作系统ROS在ubuntu上的安装，由于开始时经验不足，为了能有更高的容错率，我选择在Virtual Box上安装Ubuntu16.04虚拟机，得益于虚拟机可以轻松进行备份和恢复的优势，我在进行Ros的安装时更有信心。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="ubuntu16.04" scheme="http://sujie-168.top/categories/ubuntu16-04/"/>
+    
+    <category term="ROS-kinetic" scheme="http://sujie-168.top/categories/ubuntu16-04/ROS-kinetic/"/>
+    
+    
+    <category term="ubuntu16.04" scheme="http://sujie-168.top/tags/ubuntu16-04/"/>
+    
+    <category term="ROS-kinetic" scheme="http://sujie-168.top/tags/ROS-kinetic/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的博客创建之路</title>
+    <link href="http://sujie-168.top/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/"/>
+    <id>http://sujie-168.top/2020/04/16/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF2/</id>
+    <published>2020-04-16T05:22:24.000Z</published>
+    <updated>2021-05-23T00:54:40.926Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;教你免费搭建个人博客-Hexo-amp-Github-2&quot;&gt;&lt;a href=&quot;#教你免费搭建个人博客-Hexo-amp-Github-2&quot; class=&quot;headerlink&quot; title=&quot;教你免费搭建个人博客(Hexo&amp;amp;Github)  2&quot;&gt;&lt;/a&gt;教你免费搭建个人博客(Hexo&amp;amp;Github)  2&lt;/h1&gt;&lt;p&gt;上一期教程我们已经搭建好Blog的基础框架，准备工作应该进行得很顺利，在接下来的基础框架完善中，小编会分为两个部分：&lt;/p&gt;
+&lt;h3 id=&quot;在本文中主要介绍博客基础功能的构建&quot;&gt;&lt;a href=&quot;#在本文中主要介绍博客基础功能的构建&quot; class=&quot;headerlink&quot; title=&quot;在本文中主要介绍博客基础功能的构建&quot;&gt;&lt;/a&gt;在本文中主要介绍博客基础功能的构建&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="http://sujie-168.top/categories/hexo/"/>
+    
+    <category term="yilia" scheme="http://sujie-168.top/categories/hexo/yilia/"/>
+    
+    
+    <category term="hexo" scheme="http://sujie-168.top/tags/hexo/"/>
+    
+    <category term="yilia" scheme="http://sujie-168.top/tags/yilia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的博客创建之路</title>
+    <link href="http://sujie-168.top/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/"/>
+    <id>http://sujie-168.top/2020/04/11/%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA%E4%B9%8B%E8%B7%AF1/</id>
+    <published>2020-04-11T05:14:58.000Z</published>
+    <updated>2021-05-23T00:54:40.926Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;教你免费搭建个人博客-Hexo-amp-Github-1&quot;&gt;&lt;a href=&quot;#教你免费搭建个人博客-Hexo-amp-Github-1&quot; class=&quot;headerlink&quot; title=&quot;教你免费搭建个人博客(Hexo&amp;amp;Github)  1&quot;&gt;&lt;/a&gt;教你免费搭建个人博客(Hexo&amp;amp;Github)  1&lt;/h1&gt;&lt;p&gt;​      在基本完成搭建自己博客的过程中，花费了一天时间看各种教程，试图并从中找出搭建博客的最优办法。在一天半的时间里，通过在与各种ERROE的角逐中不断取胜，共计花费60小时成功创建了自己的第一个博客。&lt;/p&gt;
+&lt;h3 id=&quot;在本文中主要介绍博客基础框架的搭建&quot;&gt;&lt;a href=&quot;#在本文中主要介绍博客基础框架的搭建&quot; class=&quot;headerlink&quot; title=&quot;在本文中主要介绍博客基础框架的搭建&quot;&gt;&lt;/a&gt;在本文中主要介绍博客基础框架的搭建&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="http://sujie-168.top/categories/hexo/"/>
+    
+    <category term="github" scheme="http://sujie-168.top/categories/hexo/github/"/>
+    
+    
+    <category term="github" scheme="http://sujie-168.top/tags/github/"/>
+    
+    <category term="hexo" scheme="http://sujie-168.top/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://sujie-168.top/2019/08/26/hello-world/"/>
+    <id>http://sujie-168.top/2019/08/26/hello-world/</id>
+    <published>2019-08-26T05:22:24.000Z</published>
+    <updated>2021-05-23T00:54:40.922Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;</summary>
+    
+    
+    
+    <category term="first" scheme="http://sujie-168.top/categories/first/"/>
+    
+    <category term="page" scheme="http://sujie-168.top/categories/first/page/"/>
+    
+    
+    <category term="first" scheme="http://sujie-168.top/tags/first/"/>
+    
+    <category term="page" scheme="http://sujie-168.top/tags/page/"/>
+    
+  </entry>
+  
+</feed>
