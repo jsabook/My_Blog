@@ -104,7 +104,6 @@
 <% } %>
 <%- partial('_partial/aside') %>
 
-
 <% if (!index && post.comments){ %>
 
 <% if (theme.valine && theme.valine.appid && theme.valine.appkey){ %>
@@ -119,20 +118,4 @@
         }) %>
   </section>
 <% } %>
-
-<% if (theme.giteement && theme.giteement.enable){ %>
-<%- partial('post/giteement', {
-      key: post.slug,
-      title: post.title,
-      url: config.url+url_for(post.path)
-    }) %>
-<% } %>
-
-<% if (theme.gitment_owner && theme.gitment_repo &&theme.gitment_oauth && theme.gitment_oauth.client_id && theme.gitment_oauth.client_secret){ %>
-  <%- partial('post/gitment', {
-      key: post.slug,
-      title: post.title,
-      url: config.url+url_for(post.path)
-    }) %>
-  <% } %>
 <% } %>
